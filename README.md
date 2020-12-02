@@ -99,8 +99,13 @@ Visit [Nx Cloud](https://nx.app/) to learn more.
 
 ## How to setup
 npx create-nx-workspace@latest - create nx workspace (input your project name also select angular template)
+
 nx g @nrwl/angular:app - create angular app (create 3 apps ex-> app1, app2, navbar)
+
 ng add single-spa-angular - execute this command for every app by setting default project in angular.json
+
 configure routing module to every app as in sample project, also add the primary-nav component in navbar project
+
 configure ports for your apps and setup root-html-file
+
 run your apps according to package.json and start the root project 
